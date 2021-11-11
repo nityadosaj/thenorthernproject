@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display:inline-flex;
+  border: 2px black solid;
+  height: 100px;
+  width: 1500px;
+}
+.lists{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 35px;
+  margin-left: 1100px;
+  float: right;
+}
+li{
+  padding-left: 10px;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+.home
+{
+  text-align: center;
+  width: 600px;
+  margin-top: 200px;
+  margin-left: 400px;
+}
