@@ -12,14 +12,21 @@ code {
     monospace;
 }
 
-/*
-  css for home and header components start
-*/
+/* MOBILE DISPLAY*/
+.home, .header{
+  width: 100%;
+  margin-left: auto;
+}
+.home
+  {
+    text-align: center;
+    margin-top: 200px;
+  }
 .header{
   display:inline-flex;
   border: 2px black solid;
   height: 100px;
-  width: 1500px;
+  border-width: 100%;
 }
 .lists{
   display: flex;
@@ -27,7 +34,7 @@ code {
   flex-wrap: wrap;
   padding-left: 0;
   margin-top: 35px;
-  margin-left: 1100px;
+  margin-left: 50px;
   float: right;
 }
 li{
@@ -37,19 +44,35 @@ li{
 a{
   text-decoration: none;
 }
-
 img{
   height: 100px;
   width: 100px;
 }
-.home
-{
-  text-align: center;
-  width: 600px;
-  margin-top: 200px;
-  margin-left: 400px;
-}
 
-/*
-  css for home and header components end
+@media only screen and (min-width: 768px) {
+  /*
+  css for home and header components start
 */
+  .header{
+    display:inline-flex;
+    border: 2px black solid;
+    height: 100px;
+    width: 1500px;
+  }
+  .lists{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 35px;
+    margin-left: 1100px;
+    float: right;
+  }
+  .home
+  {
+    text-align: center;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 400px;
+  }
+}
