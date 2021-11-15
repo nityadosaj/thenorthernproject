@@ -51,7 +51,7 @@ img{
 
 @media only screen and (min-width: 768px) {
   /*
-  css for home and header components start
+  css for home and header components
 */
   .header{
     display:inline-flex;
