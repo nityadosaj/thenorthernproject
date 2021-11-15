@@ -1,11 +1,13 @@
 import React from 'react';
 import admc from '../admc.jpg';
 
+//Header component for the website
 function Header()
 {
     return(
       <div className="header">
         <img src={admc} alt="admc logo"/>
+        {/*navigation*/}
         <nav>
           <ul className="lists">
             <li>

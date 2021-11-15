@@ -1,5 +1,8 @@
 import react from 'react';
 import Header from './Header';
+
+//Home page of the website
+
 function Home()
 {
     return(

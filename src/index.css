@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+/*
+  css for home and header components start
+*/
 .header{
   display:inline-flex;
   border: 2px black solid;
@@ -46,3 +49,7 @@ img{
   margin-top: 200px;
   margin-left: 400px;
 }
+
+/*
+  css for home and header components end
+*/
