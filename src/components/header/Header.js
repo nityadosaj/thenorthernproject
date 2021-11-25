@@ -1,5 +1,5 @@
 import React from 'react';
-import admc from '../admc.jpg';
+import admc from '../../images/admc.jpg';
 
 //Header component for the website
 function Header()

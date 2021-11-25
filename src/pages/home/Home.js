@@ -1,5 +1,6 @@
 import react from 'react';
-import Header from './Header';
+import Header from "../../components/header/Header"
+
 
 //Home page of the website
 
