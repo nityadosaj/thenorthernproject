@@ -14,17 +14,17 @@ const App = () => {
       <Router>
         <Routes>
           {/* private route */}
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" />
           <Route path="/podcast" />
-          <Route path="/arcticissues" />
-          <Route path="/wordfrommembers" />
-          <Route path="/allies" />
           <Route path="/updates" />
           <Route path="/donate" />
 
           {/* public route */}
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" />
+          <Route path="/arcticissues" />
+          <Route path="/wordfrommembers" />
+          <Route path="/allies" />
           <Route path="/login" />
         </Routes>
       </Router>
